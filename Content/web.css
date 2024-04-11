@@ -1,0 +1,387 @@
+
+html{
+   scroll-behavior:smooth;} 
+   
+ *{
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  height: auto;
+   width: 100%;
+  font-family: Arial, sans-serif;
+ box-sizing: border-box;
+} 
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.company-name {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+}
+
+nav ul li {
+
+  margin: 0 10px 30px;
+ 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  
+  
+}
+
+nav ul li a:hover {
+  color: #ccc;
+}
+
+.vertical-line {
+  height: 20px;
+  width: 3px;
+  background-color: #fff;
+  margin: 0 10px;
+}
+
+.social-link {
+  font-size: 18px;
+}
+
+
+	#paragraph {
+font-weight: bolder;
+margin-top:20px ;
+margin-bottom:60px ;
+margin-left: 35px;}
+
+
+#paragraph h1 {
+font-size: 30px;
+color: #232d60;
+    
+}
+#paragraph p{
+
+font-size: 20px;
+color: darkgoldenrod;
+margin-left: 30px;
+margin-top: 24px;
+margin-bottom:30px;
+}
+p{
+    width: auto;
+    margin-top: 40px;
+} 
+
+#ph{ 
+    width: 100%;
+    height: auto;
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    }
+    #ph h1{
+        font-size: 50px;
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #ph a{
+    margin-left:40%;
+       margin-top: 15px;
+       margin-bottom: 10px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 40%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+        background: linear-gradient(45deg,#87adfe,#ff77cd);
+        
+    }
+      .ph a:hover{
+	background: linear-gradient(45deg,#ffbbaa,#56779d);
+	color:black;
+	border-radius: 40px;
+	}
+	
+	
+    #maths { 
+    width: 100%;
+    height: auto;
+    
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    }
+    #maths h1{
+        font-size: 50px;
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #maths a{
+    margin-left: 40%;
+       margin-top: 15px;
+       margin-bottom: 10px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 49%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+        background: honeydew;
+        
+    }
+
+    #maths a:hover{
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	color:black;
+	border-radius: 40px;
+	}
+    
+    #biology{ 
+    width: 100%;
+    height: auto;
+    
+    background: #ffbd6a;
+    }
+    #biology h1{
+        font-size: 50px;
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #biology a{
+    margin-left: 40%;
+       margin-top: 15px;
+       margin-bottom: 10px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 40%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+       background: linear-gradient(45deg,#ed5609,#87adfe);
+        
+    }
+     #biology a:hover{
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	color:black;
+	border-radius: 40px;
+	}
+    
+    #chemistry{ 
+    width: 100%;
+    height: auto;
+    
+    background: khaki;
+    }
+    #chemistry h1{
+        font-size: 50px;
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #chemistry a{
+    font-weight: bolder;
+    margin-left: 40%;
+       margin-top: 15px;
+       margin-bottom: 10px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 45%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+        background: honeydew;
+        
+    }
+     #chemistry a:hover{
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	color:black;
+	border-radius: 40px;
+	}
+    
+    #history{ 
+    width: 100%;
+    height: auto;
+    
+    background: coral;
+    }
+    
+    #history h1{
+        font-size: 50px;
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #history a{
+    margin-left: 40%;
+       margin-top: 15px;
+       margin-bottom: 10px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 40%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+        background: honeydew;
+        
+    }
+    
+     #history a:hover{
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	color:black;
+	border-radius: 40px;
+	}
+    #geography{ 
+    width: 100%;
+    height: auto;
+    
+    background: hotpink;
+    }
+    #geography h1{
+        font-size: 30px;
+       
+        text-align: center;
+        	font-family:poppins;
+        	text-transform: uppercase;
+        	font-weight: bolder;
+    }
+    #geography a{
+    margin-left: 40%;
+        display: flex;
+         margin-top: 15px;
+       margin-bottom: 10px;
+        text-decoration: none;
+        text-align: center;
+        width: 50%;
+        height: 15px;
+        padding: 10px 10px 10px 17px;
+       
+        border:2px;
+        border-radius: 10px;
+        background: honeydew;
+        
+    }
+    
+     #geography a:hover{
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	color:black;
+	border-radius: 40px;
+	}
+    #single{
+  
+        background: linear-gradient(45deg,#fff,#000);
+         }
+    #single a{
+    margin-left: 30%;
+       margin-top: 8px;
+        display: flex;
+        text-decoration: none;
+        text-align: center;
+        width: 40%;
+        height: 35px;
+        padding: 10px 15px 10px 35px;
+       
+        border:2px;
+        border-radius: 20px;
+      
+		background: linear-gradient(45deg,#76cf32,#ff77cd);
+        
+    }
+    #single a:hover{
+background: black;
+	color:white;
+	border-radius: 40px;
+	}
+	
+	
+footer{
+    width: 100%;
+    height:17vh;
+    
+    border-top-width: 4px;
+    border-top-style:outset;
+    border-top-color: black;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+
+
+footer p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: ;
+    padding-bottom: 10vh;
+    text-transform: uppercase;
+}
+
+
+footer a{
+   border:2px;
+   border-radius: 20px;
+background: linear-gradient(45deg,#879f6e,#798dfd);
+     text-decoration: none; 
+     margin-left: 70%;
+     padding: 5px 10px 5px 15px;
+     
+}
+
+
+ footer a:hover{
+	background: linear-gradient(45deg,#76cf32,#ffaacd);
+	color:black;
+	border-radius: 40px;
+	
+	}
+
+
+
+
